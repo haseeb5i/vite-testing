@@ -3,7 +3,7 @@ import { useCounter } from "../hooks/useCounter";
 
 export default function HelloWorld({ name }: { name: string }) {
   // const [count, setCount] = useState(1);
-  const { count, increment } = useCounter();
+  const { count, increment } = useCounter(1);
   return (
     <div>
       <h1>
